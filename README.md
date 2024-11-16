@@ -40,7 +40,7 @@ pip install -r requirements.txt
 ### Step 4: Run the App
 Start the Flask development server:
 ```bash
-python app.py
+python LeakChecker.py
 ```
 
 ### Step 5: Open the App in Your Browser
