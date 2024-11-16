@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Leak Checker</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="dialog-container">
+        <div class="dialog">
+            <h1>🔒 Password Leak Checker</h1>
+            <p>Worried if your password has been leaked? Let's find out!</p>
+            <form action="/check" method="POST">
+                <input type="password" name="password" id="password" placeholder="Enter your password" required>
+                <button type="submit">Check Now</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
